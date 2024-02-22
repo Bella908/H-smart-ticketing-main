@@ -89,16 +89,19 @@ function grandPrice(id){
     const discount = price*0.15;
     const grandPrice = document.getElementById("Grand-total");
     grandPrice.innerHTML = price - discount;
+    addHidden('hid');
 
   }
   else if(cuppon == 'Couple 20'){
     const discount = price*0.2;
     const grandPrice = document.getElementById("Grand-total");
     grandPrice.innerHTML = price - discount;
+    addHidden('hid');
   }
 
   else{
     alert('Enter valid cuppon code')
+  
   }
 
 }
@@ -107,7 +110,7 @@ function grandPrice(id){
 // hide the input box
 document.getElementById('btn').addEventListener('click',function(event){
   grandPrice('btn');
-  addHidden('hid');}
+  }
 )
 
 

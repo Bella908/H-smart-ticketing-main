@@ -9,6 +9,11 @@ function addHidden(elementId){
     element.classList.add('hidden');
 }
 
+function removeHidden(elementId){
+    const element = document.getElementById(elementId);
+    element.classList.remove('hidden');
+}
+
 function getTextValueInNum(elementId){
     const element = document.getElementById(elementId).innerText;
     const converted = parseInt(element);
