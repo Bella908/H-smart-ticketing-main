@@ -57,7 +57,7 @@ for (const seat of allSeat){
 
     
     totalCost(price)
-    grandtotal()
+    grandPrice()
 
 
 
@@ -72,7 +72,7 @@ function totalCost(value){
 
 }
 
-function grandtotal(id){
+function grandPrice(id){
 
   const price = getTextValueInNum('total-price');
   if(id == undefined){
@@ -102,5 +102,11 @@ function grandtotal(id){
 
 }
 }
+
+// hide the input box
+document.getElementById('btn').addEventListener('click',function(event){
+  grandPrice('btn');
+  addHidden('hid');}
+)
 
 

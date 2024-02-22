@@ -3,9 +3,10 @@ function addBackgroundColour(elementId){
     element.classList.add('bg-red-800');
 }
 
-function removeBackgroundColour(elementId){
+
+function addHidden(elementId){
     const element = document.getElementById(elementId);
-    element.classList.remove('bg-red-800');
+    element.classList.add('hidden');
 }
 
 function getTextValueInNum(elementId){
