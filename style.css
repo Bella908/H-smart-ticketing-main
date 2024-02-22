@@ -1,0 +1,17 @@
+
+    
+    .raleway{
+      font-family: "Raleway", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+
+    .selected-class{
+      display: flex;
+      justify-content:space-between;
+    }
+ .colour-li{
+ background-color: #1DD100;
+ color: #1DD10026;
+  
+ }
