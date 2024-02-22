@@ -14,6 +14,7 @@ for (const seat of allSeat){
     if(limit+1>4)
     {
       alert('limit crose')
+      return;
     }
     event.target.style.backgroundColor = '#1DD100';
     event.target.style.color = 'white';
